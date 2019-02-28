@@ -33,7 +33,7 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
 
-WS.verifyResponseStatusCode(response, 201)
+WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
